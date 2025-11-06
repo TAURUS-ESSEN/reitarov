@@ -1,0 +1,82 @@
+{ 
+  "brand": {
+    "title": "Yevhen Reitarov",
+    "subtitle": "• Web Developer"
+},
+    "nav": {
+      "menu1": "About",
+      "menu2": "Projects",
+      "menu3": "Contacts"
+    },
+    "hero": {
+      "title": "Hello! I‘m Yevhen",
+      "subtitle": "Hello! I’m Yevhen. I’m a web developer, problem solver, and clean-code enthusiast.\nI build digital experiences that are fast, accessible, and made to last.",
+      "bullets": [
+        "Solve problems without creating new ones",
+        "Write code that lasts",
+        "Maintain, support, improve",
+        "Keep clients happy"
+      ],
+      "buttons": {
+        "primary": "Let’s Talk",
+        "secondary": "Download CV"
+      }
+    },
+    "vision": {
+      "title": "From idea\nto product",
+      "text": "I turn ideas into responsive web solutions — from rough sketches to fully functional websites.\nMy process blends planning, design, and clean development."
+    },
+    "projects": {
+      "title": "Projects",
+      "cards": [
+        {
+          "img": "project1.webp",
+          "title": "Project Bookworm",
+          "stack": "React • CSS • Responsive Design",
+          "live": "Live Demo",
+          "source": "Source Code"
+        },
+        { "img": "project1.webp",
+          "title": "Project FutureSkills Hub",
+          "stack": "React • CSS • Responsive Design",
+          "live": "Live Demo",
+          "source": "Source Code"
+        }
+      ]
+    },
+    "past": {
+      "title": "In a previous life",
+      "subtitle": "I used to do some things that I am not really doing anymore",
+      "items": [
+        {
+          "icon": "item1.webp",
+          "title": "Joomla Development",
+          "text": "Built and maintained dynamic websites using Joomla CMS."
+        },
+        {
+          "icon": "item2.webp",
+          "title": "osCommerce Development",
+          "text": "Developed and customized online stores using osCommerce and PHP."
+        },
+        {
+          "icon": "item3.webp",
+          "title": "Entrepreneurship",
+          "text": "Founded and managed my own small company, overseeing client projects and workflow."
+        },
+        {
+          "icon": "item4.webp",
+          "title": "Windows Server Setup & Administration",
+          "text": "Configured and managed Windows-based servers for small business environments."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Let‘s talk",
+      "text": "I‘m always looking forward to new opportunities, ping me if you have any!",
+      "email": "reitarovea@gmail.com"
+    },
+    "footer": {
+      "copyright": "© 2025 Yevhen Reitarov",
+      "impressum": "Impressum"
+    }
+  }

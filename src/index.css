@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+section {
+    border: 1px solid black;
+    margin-top: 50px;
+}
+:root {
+
+} 
+
+@layer base {
+ body {
+
+    } 
+}

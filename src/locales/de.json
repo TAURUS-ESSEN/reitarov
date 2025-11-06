@@ -1,0 +1,83 @@
+{
+  "brand": {
+    "title": "Yevhen Reitarov",
+    "subtitle": "• Webentwickler"
+  },
+    "nav": {
+      "menu1": "Über mich",
+      "menu2": "Projekte",
+      "menu3": "Kontakt"
+    },
+    "hero": {
+      "title": "Hallo! Ich bin Yevhen",
+      "subtitle": "Hallo! Ich bin Yevhen – Webentwickler, Problemlöser und Clean‑Code‑Enthusiast.\nIch entwickle digitale Erlebnisse, die schnell, zugänglich und langlebig sind.",
+      "bullets": [
+        "Probleme lösen, ohne neue zu schaffen",
+        "Code schreiben, der Bestand hat",
+        "Warten, betreuen, verbessern",
+        "Kunden zufrieden halten"
+      ],
+      "buttons": {
+        "primary": "Lass uns sprechen",
+        "secondary": "Lebenslauf herunterladen"
+      }
+    },
+    "vision": {
+      "title": "Von der Idee\nzum Produkt",
+      "text": "Ich verwandle Ideen in responsive Weblösungen – von groben Skizzen bis zu vollständig funktionalen Websites.\nMein Prozess verbindet Planung, Design und saubere Entwicklung."
+    },
+    "projects": {
+      "title": "Projekte",
+      "cards": [
+        {
+          "img": "project1.webp",
+          "title": "Project Bookworm",
+          "stack": "React • CSS • Responsive Design",
+          "live": "Live‑Demo",
+          "source": "Quellcode"
+        },
+        {
+          "img": "project2.webp",
+          "title": "Project FutureSkills Hub",
+          "stack": "React • CSS • Responsive Design",
+          "live": "Live‑Demo",
+          "source": "Quellcode"
+        }
+      ]
+    },
+    "past": {
+      "title": "In einem früheren Leben",
+      "subtitle": "Früher habe ich Dinge gemacht, die ich heute kaum noch mache.",
+      "items": [
+        {
+          "icon": "item1.webp",
+          "title": "Joomla‑Entwicklung",
+          "text": "Dynamische Websites mit Joomla CMS erstellt und gepflegt."
+        },
+        {
+          "icon": "item2.webp",
+          "title": "osCommerce‑Entwicklung",
+          "text": "Onlineshops mit osCommerce und PHP entwickelt und angepasst."
+        },
+        {
+          "icon": "item3.webp",
+          "title": "Unternehmertum",
+          "text": "Ein eigenes kleines Unternehmen gegründet und geführt – inklusive Kundenprojekten und Abläufen."
+        },
+        {
+          "icon": "item4.webp",
+          "title": "Windows‑Server: Setup & Administration",
+          "text": "Windows‑basierte Server für kleine Unternehmen eingerichtet und verwaltet."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Lass uns sprechen",
+      "text": "Ich freue mich immer über neue Möglichkeiten – melde dich gern, wenn du eine hast!",
+      "email": "reitarovea@gmail.com"
+    },
+    "footer": {
+      "copyright": "© 2025 Yevhen Reitarov",
+      "impressum": "Impressum"
+    }
+  }
