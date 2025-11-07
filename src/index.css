@@ -1,15 +1,107 @@
 @import "tailwindcss";
 
+@theme {
+    --shadow-soft: 0 0 5px #d0d0d0a3;
+    --shadow-leicht: 0 0 5px #8a8a8a;
+    --shadow-orange: 0 0 5px #F89000;
+    --shadow-header: 0px 2px 2px #d0d0d0a3;
+    --color-primary: #F8F8F8;
+    --color-secondary: #555555;
+    --color-additional: #FF6500;
+}
+
+html { scroll-behavior: smooth; }
+
+@font-face {
+    font-family: "Kodchasan";
+    src: url("/fonts/Kodchasan-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Kodchasan";
+    src: url("/fonts/Kodchasan-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Kodchasan";
+    src: url("/fonts/Kodchasan-SemiBold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Kodchasan";
+    src: url("/fonts/Kodchasan-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: "Kodchasan", sans-serif;
+    letter-spacing: 1px;
+    --shadow-header: 0px 2px 2px #d0d0d0a3;
+}
+
+    .shine-btn { position: relative; overflow: hidden; }
+    .shine-btn::after {
+        content:""; position:absolute; inset:0; transform:translateX(-120%);
+        background: linear-gradient(120deg, transparent 0%, rgba(255,255,255,.22) 50%, transparent 100%);
+        transition: transform .6s ease;
+    }
+    .shine-btn:hover::after { transform: translateX(120%); }
+
 section {
-    border: 1px solid black;
-    margin-top: 50px;
+    /* border: 1px solid lightgrey; */
+    /* margin-top: 50px; */
 }
 :root {
 
 } 
 
 @layer base {
- body {
+    body {
+        @apply text-xl
+    }
 
-    } 
+    section {
+        @apply mx-4
+    }
+
+    a {
+        @apply inline-block transition-transform hover:text-additional ease-in-out duration-300 hover:scale-105
+    }
+
+    nav a {
+        @apply hover:underline underline-offset-8
+    }
+
+    button {
+        @apply   ease-in-out duration-300 hover:scale-105 hover:cursor-pointer;
+    }
+
+    h2 {
+        @apply text-3xl my-4 font-semibold
+    }
+
+    h3 {
+        @apply text-xl font-semibold
+    }
+
+    section {
+        @apply mb-10
+    }
+}
+
+@layer components {
+    .brands span {
+        @apply hover:scale-105 duration-300 hover:text-amber-300
+    }
 }

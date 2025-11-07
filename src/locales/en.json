@@ -33,14 +33,27 @@
           "img": "project1.webp",
           "title": "Project Bookworm",
           "stack": "React • CSS • Responsive Design",
-          "live": "Live Demo",
-          "source": "Source Code"
+          "live": "[Live Demo]",
+          "demolink": "https://shopping-card2.vercel.app/",
+          "source": "[Source Code]",
+          "sourcelink": "https://github.com/TAURUS-ESSEN/magicLanding"
         },
-        { "img": "project1.webp",
+        { "img": "project2.webp",
           "title": "Project FutureSkills Hub",
           "stack": "React • CSS • Responsive Design",
-          "live": "Live Demo",
-          "source": "Source Code"
+          "live": "[Live Demo]",
+          "demolink": "https://magic-landing-seven.vercel.app/",
+          "source": "[Source Code]",
+          "sourcelink": "https://github.com/TAURUS-ESSEN/magicLanding"
+        },
+        {
+          "img": "project1.webp",
+          "title": "Project Bookworm",
+          "stack": "React • CSS • Responsive Design",
+          "live": "[Live Demo]",
+          "demolink": "https://shopping-card2.vercel.app/",
+          "source": "[Source Code]",
+          "sourcelink": "https://github.com/TAURUS-ESSEN/magicLanding"
         }
       ]
     },
@@ -78,5 +91,13 @@
     "footer": {
       "copyright": "© 2025 Yevhen Reitarov",
       "impressum": "Impressum"
-    }
+    },
+    "impressum": {
+  "title": "Legal Notice (Impressum)",
+  "legalHeading": "Information pursuant to § 5 TMG",
+  "contactHeading": "Contact",
+  "responsibleHeading": "Responsible for content (§ 55 Abs. 2 RStV)",
+  "addressLine": "Address available upon request",
+  "note": "This website is for personal presentation only and is not operated for commercial purposes."
+}
   }

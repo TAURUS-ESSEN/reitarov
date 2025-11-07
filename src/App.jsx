@@ -15,7 +15,7 @@ function App() {
   };
 
   return (
-    <div className='flex flex-col lg:max-w-300 border m-auto'>
+    <div className='flex flex-col lg:max-w-300 border bg-white border-gray-300 m-auto shadow-soft'>
       <Header lang={lang} switchLang={switchLang} />
         <Outlet context={{t}} />
       <Footer />

@@ -1,26 +1,26 @@
 export default function Past({t}) {
     const items = t('past.items');
     return (
-        <section className="flex ">
-            <div>
+        <section className="flex bg-primary mx-0 p-4 ">
+            <div className="w-full">
                 <h2>{t('past.title')}</h2>
                 <p>{t('past.subtitle')}</p>
-                <ul>
+                <ul className="">
                     {items.map(item=>{
                         return (
-                            <li>
-                                <span>{item.icon}</span>
+                            <li className="flex gap-6  text-base items-center my-4">
+                                <span><img src={`${item.icon}`} width="35" className="min-w-10"/></span>
                                 <span>
                                     <h3>{item.title}</h3>
-                                    <p>{item.subtitle}</p>
+                                    <p className="text-secondary">{item.text}</p>
                                 </span>
                             </li>
                         )
                     })}
                 </ul>
             </div>
-            <div>
-                <img src="./past.webp" width="300" height="300" />
+            <div className="">
+                <img src="past.webp" width="300" height="300" className="w-auto" />
             </div>
         </section>
     )

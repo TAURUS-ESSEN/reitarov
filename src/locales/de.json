@@ -33,15 +33,15 @@
           "img": "project1.webp",
           "title": "Project Bookworm",
           "stack": "React • CSS • Responsive Design",
-          "live": "Live‑Demo",
-          "source": "Quellcode"
+          "live": "[Live‑Demo]",
+          "source": "[Quellcode]"
         },
         {
           "img": "project2.webp",
           "title": "Project FutureSkills Hub",
           "stack": "React • CSS • Responsive Design",
-          "live": "Live‑Demo",
-          "source": "Quellcode"
+          "live": "[Live‑Demo]",
+          "source": "[Quellcode]"
         }
       ]
     },
@@ -79,5 +79,14 @@
     "footer": {
       "copyright": "© 2025 Yevhen Reitarov",
       "impressum": "Impressum"
-    }
+    },
+    "impressum": {
+  "title": "Impressum",
+  "legalHeading": "Angaben gemäß § 5 TMG",
+  "contactHeading": "Kontakt",
+  "responsibleHeading": "Verantwortlich für den Inhalt (§ 55 Abs. 2 RStV)",
+  "addressLine": "Adresse auf Anfrage",
+  "note": "Dieser Webauftritt dient ausschließlich der persönlichen Präsentation und verfolgt keine kommerziellen Zwecke."
+}
+    
   }
