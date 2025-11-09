@@ -8,8 +8,8 @@ export default function Past({t}) {
                 <ul className="">
                     {items.map(item=>{
                         return (
-                            <li className="flex gap-6  text-base items-center my-4">
-                                <span><img src={`${item.icon}`} width="35" className="  rounded-xl w-full h-auto aspect-[16/9] object-cover" /></span>
+                            <li className="flex gap-6 text-base items-center my-4">
+                                <span><img src={`${item.icon}`} width="35" className="min-w-10 " /></span>
                                 <span>
                                     <h3>{item.title}</h3>
                                     <p className="text-secondary">{item.text}</p>
@@ -20,7 +20,7 @@ export default function Past({t}) {
                 </ul>
             </div>
             <div className="hidden md:block">
-                <img src="past.webp" width="300" height="300" className="w-auto" />
+                <img src="past.webp" width="300" height="300" className="w-auto" loading="lazy" />
             </div>
         </section>
     )

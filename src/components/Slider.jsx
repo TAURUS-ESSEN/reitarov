@@ -131,14 +131,20 @@ export default function Sldier({ t }) {
                 style={{ flex: `0 0 ${slideBasis}` }}
               >
                 <article className="h-full rounded-xl p-2 md:p-4 shadow-soft flex flex-col items-center text-base">
-                  <div className="w-full aspect-video overflow-hidden rounded-lg md:shadow">
-                    <img
-                      src={card.img}
-                      alt={card.title}
-                      className="w-full h-full object-cover"
-                      loading="lazy"
-                    />
-                  </div>
+                      <a
+                        href={card.demolink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-full aspect-video overflow-hidden rounded-lg md:shadow"
+                      >
+                        <img
+                          src={card.img}
+                          alt={card.title}
+                          className="w-full h-full object-cover"
+                          loading="lazy"
+                      />
+                    </a>
+                  
                   <h3 className="mt-4 text-xl font-semibold text-center">{card.title}</h3>
                   <p className="text-secondary text-center">{card.stack}</p>
                   <div className="flex justify-between w-full font-semibold mt-4">

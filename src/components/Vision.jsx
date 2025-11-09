@@ -6,7 +6,7 @@ export default function Vision({t}) {
                 <p className="leading-relaxed">{t('vision.text')}</p>
             </div>
             <div className="w-full text-center order-1 md:order-2 reveal ">
-                <img src="vision.webp" width="300"  className="rounded-xl w-full h-auto aspect-[16/9] object-cover" alt={t("vision.title")} loading="lazy"/>
+                <img src="vision.webp" width="300"  className="w-full" alt={t("vision.title")} loading="lazy"/>
             </div>
         </section>
     )
