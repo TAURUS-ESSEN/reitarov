@@ -19,8 +19,8 @@ export default function Header({ lang, switchLang }) {
                 <span className="open text-orange shine-btn peer-checked:hidden ">☰</span>
                 <span className="close text-orange shine-btn hidden peer-checked:inline">✕</span>
             </label>
-            <nav className='md:animate-fade-right'>
-                <ul className='flex gap-6 font-semibold text-xl items-center '>
+            <nav className=' '>
+                <ul className='flex gap-6 font-semibold text-xl items-center  animate-fade-right'>
                     <li><a href="/#about" className="">{t('nav.menu1')}</a></li>
                     <li><a href="/#projects" >{t('nav.menu2')}</a></li>
                     <li><a href="/#contacts">{t('nav.menu3')}</a></li>

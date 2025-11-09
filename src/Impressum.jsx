@@ -3,7 +3,7 @@ import { useOutletContext } from "react-router-dom";
 export default function Impressum() {
     const {t} = useOutletContext();
     return (
-        <section id="impressum" className="max-w-3xl mx-auto px-6 py-12">
+        <section id="impressum" className="max-w-3xl   px-6 py-2">
         <h1 className="text-3xl font-bold mb-6">{t('impressum.title')}</h1>
 
         <div className="space-y-6 text-lg leading-relaxed">
