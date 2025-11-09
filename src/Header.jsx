@@ -2,6 +2,10 @@ import { t } from './languageToggler';
 import { Link } from 'react-router-dom'
 
 export default function Header({ lang, switchLang }) {
+    const closeMenu = () => {
+  const cb = document.getElementById('menu-toggler');
+  if (cb) cb.checked = false;
+};
     return (
         <header className="flex justify-between items-center shadow-header p-6 mb-10">
             <div className='animate-fade-left'>
@@ -21,9 +25,10 @@ export default function Header({ lang, switchLang }) {
             </label>
             <nav className=' '>
                 <ul className='flex gap-6 font-semibold text-xl items-center  animate-fade-right'>
-                    <li><a href="/#about" className="">{t('nav.menu1')}</a></li>
-                    <li><a href="/#projects" >{t('nav.menu2')}</a></li>
-                    <li><a href="/#contacts">{t('nav.menu3')}</a></li>
+                    
+                    <li><Link to="/#about"  onClick={closeMenu}>{t('nav.menu1')}</Link></li>
+                    <li><Link to="/#projects"  onClick={closeMenu}>{t('nav.menu2')}</Link></li>
+                    <li><Link to="/#contacts"  onClick={closeMenu}>{t('nav.menu3')}</Link></li>
                     <li>
                         <button
                             className="p-2 rounded-lg bg-black text-white shadow-leicht hover:bg-additional duration-300 shine-btn" 

@@ -9,7 +9,7 @@ export default function Past({t}) {
                     {items.map(item=>{
                         return (
                             <li className="flex gap-6  text-base items-center my-4">
-                                <span><img src={`${item.icon}`} width="35" className="min-w-10"/></span>
+                                <span><img src={`${item.icon}`} width="35" className="  rounded-xl w-full h-auto aspect-[16/9] object-cover" /></span>
                                 <span>
                                     <h3>{item.title}</h3>
                                     <p className="text-secondary">{item.text}</p>
