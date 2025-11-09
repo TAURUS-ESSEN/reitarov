@@ -24,7 +24,7 @@ export default function Hero({t}) {
                     </a>
                     <span className="flex items-center gap-2 px-2 md:px-4 font-medium ">
                     <a 
-                        href="./cv-reitarov.pdf" download
+                        href="./cv_reitarov.pdf" download
                         className="group flex items-center gap-2 px-2 md:px-4 border-b font-medium hover:text-additional transition duration-300"
                     >
                     <img
