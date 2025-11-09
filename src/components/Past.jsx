@@ -19,7 +19,7 @@ export default function Past({t}) {
                     })}
                 </ul>
             </div>
-            <div className="">
+            <div className="hidden md:block">
                 <img src="past.webp" width="300" height="300" className="w-auto" />
             </div>
         </section>

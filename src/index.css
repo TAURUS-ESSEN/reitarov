@@ -88,7 +88,7 @@ section {
     }
 
     h2 {
-        @apply text-3xl my-4 font-semibold
+        @apply text-3xl my-1 md:my-4 font-semibold
     }
 
     h3 {
@@ -137,16 +137,17 @@ details[open] .open-icon { display: inline; }
         display: none;
         background-color: #fffffff0;
         flex-direction: column;
+        justify-content: center;
         align-items: flex-end;
         width: 100%;
         position: absolute;
         top: 100%;
-        margin-top: 0.2rem;
-        padding-bottom: 1rem;
+        margin-top: 0.5rem;
+        padding-bottom: 0.5rem;
         border-radius: 0 0 0.3rem 0.3rem;
         left: -1rem;
         padding-right: 1rem;
-        padding-bottom: 2rem;
+        /* padding-bottom: 2rem; */
         z-index: 2;
         gap: 0.5rem;
         box-shadow: 0 2px 2px rgb(187, 187, 187);
