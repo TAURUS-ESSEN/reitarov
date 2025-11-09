@@ -7,8 +7,13 @@
     --shadow-header: 0 2px 2px #d0d0d0a3;
 
     --color-primary: #F8F8F8;
+    --color-primary2: #f2f2f2;
     --color-secondary: #555555;
     --color-additional: #FF6500;
+}
+
+adress {
+    background-color: #f2f2f2;
 }
 
 html { scroll-behavior: smooth; }

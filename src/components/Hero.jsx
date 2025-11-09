@@ -4,7 +4,7 @@ export default function Hero({t}) {
     return (
         <section className="flex flex-col lg:flex-row gap-10 lg:items-start xl:items-center animate-fade-up reveal" id="about">
             <div className="w-full h-auto ">
-                <img src="./hero.webp" className="rounded-xl w-full h-auto aspect-[16/9] object-cover" alt={t("hero.title")} loading="lazy" />
+                <img src="./hero.webp" className="rounded-xl w-full h-auto aspect-video object-cover" alt={t("hero.title")} loading="lazy" />
             </div>
             <div className="flex flex-col gap-6 w-full">
                 <h1 className="text-3xl font-semibold">{t('hero.title')}</h1>
