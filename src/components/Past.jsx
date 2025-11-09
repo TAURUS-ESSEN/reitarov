@@ -1,7 +1,7 @@
 export default function Past({t}) {
     const items = t('past.items');
     return (
-        <section className="flex bg-primary mx-0 p-4 ">
+        <section className="flex bg-primary mx-0 p-4 reveal">
             <div className="w-full">
                 <h2>{t('past.title')}</h2>
                 <p>{t('past.subtitle')}</p>

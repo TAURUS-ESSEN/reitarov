@@ -97,9 +97,9 @@ export default function Sldier({ t }) {
 
   return (
     <section id="projects">
-      <h2>{t("projects.title")}</h2>
+      <h2 className="reveal">{t("projects.title")}</h2>
 
-      <div className="flex items-center gap-0 md:gap-4 mt-4 relative">
+      <div className="flex items-center gap-0 md:gap-4 mt-4 relative reveal">
         <button
           type="button"
           onClick={handlePrev}
@@ -131,7 +131,7 @@ export default function Sldier({ t }) {
                 style={{ flex: `0 0 ${slideBasis}` }}
               >
                 <article className="h-full rounded-xl p-2 md:p-4 shadow-soft flex flex-col items-center text-base">
-                  <div className="w-full aspect-video overflow-hidden rounded-lg shadow">
+                  <div className="w-full aspect-video overflow-hidden rounded-lg md:shadow">
                     <img
                       src={card.img}
                       alt={card.title}
@@ -178,7 +178,7 @@ export default function Sldier({ t }) {
         </button>
       </div>
 
-      <div className="flex md:hidden justify-around"> 
+      <div className="flex md:hidden justify-around mt-4"> 
         <button
           type="button"
           onClick={handlePrev}

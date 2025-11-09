@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Header({ lang, switchLang }) {
     return (
         <header className="flex justify-between items-center shadow-header p-6 mb-10">
-            <div >
+            <div className='animate-fade-left'>
                 <Link to="/" className='flex flex-col '>
                     <span className='text-2xl font-semibold '>{t('brand.title')}</span>
                     <span className='text-sm -mt-0.5 text-center text-secondary '>
@@ -15,11 +15,11 @@ export default function Header({ lang, switchLang }) {
                 </Link>
             </div>
             <input type="checkbox" id="menu-toggler" className="peer hidden" />
-            <label htmlFor="menu-toggler" role="button" tabIndex="0" className="ml-auto md:hidden">
+            <label htmlFor="menu-toggler" role="button" tabIndex="0" className="ml-auto md:hidden animate-fade-right">
                 <span className="open text-orange shine-btn peer-checked:hidden">☰</span>
                 <span className="close text-orange shine-btn hidden peer-checked:inline">✕</span>
             </label>
-            <nav className=''>
+            <nav className='animate-fade-right'>
                 <ul className='flex gap-6 font-semibold text-xl items-center '>
                     <li><a href="/#about" className="">{t('nav.menu1')}</a></li>
                     <li><a href="/#projects" >{t('nav.menu2')}</a></li>

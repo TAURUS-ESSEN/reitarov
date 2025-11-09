@@ -5,7 +5,7 @@ import { faFacebook, faInstagram, faWhatsapp, faLinkedin, faGithub } from '@fort
 
 export default function Footer() {
     return (
-        <footer className='flex flex-col md:flex-row justify-between items-center gap-4 border mt-12 p-10 bg-black text-white'>
+        <footer className='flex flex-col md:flex-row justify-between items-center gap-4 border mt-12 p-10 bg-black text-white '>
             <div className='flex flex-col items-center md:items-end gap-2 order-1 md:order-2'>
                 <div className="flex justify-center gap-2 brands">
                         <span>

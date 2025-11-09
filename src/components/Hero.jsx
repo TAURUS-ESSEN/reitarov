@@ -2,7 +2,7 @@
 export default function Hero({t}) {
     const bullets = t('hero.bullets', { returnObjects: true });
     return (
-        <section className="flex flex-col md:flex-row gap-10 items-center" id="about">
+        <section className="flex flex-col md:flex-row gap-10 items-center animate-fade-up reveal" id="about">
             <div className="w-full h-auto ">
                 <img src="./hero.webp" className="rounded-xl" />
             </div>
@@ -15,9 +15,9 @@ export default function Hero({t}) {
                     ))}
                 </ul>
                 <div className="flex justify-between">
-                    <button className="px-4 py-2 rounded-lg bg-black text-white font-medium duration-300 shine-btn">
+                    <a  href="https://wa.me/491604514509" className="px-4 py-2 rounded-lg bg-black text-white font-medium duration-300 shine-btn">
                         {t('hero.buttons.primary')}
-                    </button>
+                    </a>
                     <span className="flex items-center gap-2 px-2 md:px-4 border-b font-medium ">
                         <img src="download.webp" width={34} />
                         <a href="./cv-reitarov.pdf" download>{t('hero.buttons.secondary')}</a>
