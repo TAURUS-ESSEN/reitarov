@@ -2,7 +2,7 @@
 export default function Hero({t}) {
     const bullets = t('hero.bullets', { returnObjects: true });
     return (
-        <section className="flex flex-col md:flex-row gap-10 items-center animate-fade-up reveal" id="about">
+        <section className="flex flex-col lg:flex-row gap-10 lg:items-start xl:items-center animate-fade-up reveal" id="about">
             <div className="w-full h-auto ">
                 <img src="./hero.webp" className="rounded-xl" />
             </div>

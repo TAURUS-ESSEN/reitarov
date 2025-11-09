@@ -31,7 +31,7 @@ export default function Footer() {
                     </div>
                 <div className='text-base '><Link to="impressum">{t('footer.impressum')}</Link></div>
             </div>
-            <div className='order-2 md:order-1'>{t('footer.copyright')}</div>
+            <div className='order-2 md:order-1 text-center'>{t('footer.copyright')}</div>
             
         </footer>
     )
