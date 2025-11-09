@@ -9,12 +9,12 @@ export default function Hero({t}) {
             <div className="flex flex-col gap-6 w-full">
                 <h1 className="text-3xl font-semibold">{t('hero.title')}</h1>
                 <p>{t('hero.subtitle')}</p>
-                <ul className="flex flex-col gap-2">
+                <ul className="flex flex-col gap-2 text-base">
                     {bullets.map((b, i) => (
                         <li key={i}>✓ {b}</li>
                     ))}
                 </ul>
-                <div className="flex justify-between animate-fade-up-600">
+                <div className="flex justify-between animate-fade-up-600 text-lg">
                     <a  
                         href="https://wa.me/491604514509" 
                         className="px-4 py-2 rounded-lg bg-black text-white font-medium duration-300 shine-btn hover:scale-105 hover:bg-additional"
