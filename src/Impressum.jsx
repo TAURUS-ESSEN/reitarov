@@ -18,7 +18,7 @@ export default function Impressum() {
             <div>
             <h2 className="font-semibold">{t('impressum.contactHeading')}</h2>
             <p>
-                E-Mail: <a className="underline" href="mailto:contact@reitarov.dev">contact@reitarov.dev</a>
+                E-Mail: <a className="underline" href="mailto:contact@reitarov.dev">reitarovea@gmail.com</a>
             </p>
             </div>
 
