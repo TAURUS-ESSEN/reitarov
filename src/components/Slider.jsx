@@ -99,12 +99,12 @@ export default function Sldier({ t }) {
     <section id="projects">
       <h2>{t("projects.title")}</h2>
 
-      <div className="flex items-center gap-4 mt-4">
+      <div className="flex items-center gap-0 md:gap-4 mt-4 relative">
         <button
           type="button"
           onClick={handlePrev}
           disabled={!canPrev}
-          className={`px-4 py-2 border rounded-lg transition ${
+          className={`hidden md:block px-4 py-2 border rounded-lg transition ${
             canPrev ? "bg-black text-white hover:bg-additional hover:text-black" : "opacity-40 cursor-not-allowed"
           }`}
           aria-label="Previous"
@@ -130,7 +130,7 @@ export default function Sldier({ t }) {
                 className="px-3 py-2"
                 style={{ flex: `0 0 ${slideBasis}` }}
               >
-                <article className="h-full rounded-xl p-4 shadow-soft    flex flex-col items-center text-base">
+                <article className="h-full rounded-xl p-2 md:p-4 shadow-soft flex flex-col items-center text-base">
                   <div className="w-full aspect-video overflow-hidden rounded-lg shadow">
                     <img
                       src={card.img}
@@ -169,7 +169,33 @@ export default function Sldier({ t }) {
           type="button"
           onClick={handleNext}
           disabled={!canNext}
-          className={`px-4 py-2 border rounded-lg transition ${
+          className={`hidden md:block px-4 py-2 border rounded-lg transition ${
+            canNext ? "bg-black text-white hover:bg-additional hover:text-black" : "opacity-40 cursor-not-allowed"
+          }`}
+          aria-label="Next"
+        >
+          <FontAwesomeIcon icon={faArrowRight} />
+        </button>
+      </div>
+
+      <div className="flex md:hidden justify-around"> 
+        <button
+          type="button"
+          onClick={handlePrev}
+          disabled={!canPrev}
+          className={` px-4 py-2 border rounded-lg transition ${
+            canPrev ? "bg-black text-white hover:bg-additional hover:text-black" : "opacity-40 cursor-not-allowed"
+          }`}
+          aria-label="Previous"
+        >
+          <FontAwesomeIcon icon={faArrowLeft} />
+        </button>
+
+          <button
+          type="button"
+          onClick={handleNext}
+          disabled={!canNext}
+          className={` px-4  py-2 border rounded-lg transition ${
             canNext ? "bg-black text-white hover:bg-additional hover:text-black" : "opacity-40 cursor-not-allowed"
           }`}
           aria-label="Next"
