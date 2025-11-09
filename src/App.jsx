@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useLayoutEffect  } from 'react'
 import { Outlet } from 'react-router-dom';
 import { t, setLang } from "./languageToggler";
 import './App.css'
@@ -32,7 +32,7 @@ function App() {
           }
         });
       },
-      { rootMargin: "0px 0px -15% 0px", threshold: 0.15 }
+      { rootMargin: "0px 0px -5% 0px", threshold: 0.15 }
     );
 
     requestAnimationFrame(() => {
